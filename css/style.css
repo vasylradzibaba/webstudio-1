@@ -24,6 +24,9 @@
      letter-spacing: 0.28px;
      text-decoration: none;
 }
+.navigation-link:hover {
+    color: var(--accent-color);
+}
  .contakt-link {
     color: var(--add-color);
         font-size: 14px;
@@ -31,6 +34,9 @@
         /* 50.00% */
         letter-spacing: 0.28px;
         text-decoration: none;
+ }
+ .contakt-link:hover {
+    color: var(--accent-color);
  }
  .biznes-title {
     color: #FFF;
