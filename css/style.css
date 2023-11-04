@@ -114,6 +114,9 @@
         background-color: #2F303A;
         text-decoration: none;
  }
+ .address-link:hover {
+    color: var(--accent-color);
+ }
 
         .address-link:first-child {
                 color: #fff;
