@@ -105,13 +105,16 @@
         font-size: 16px;
         letter-spacing: 0.48px;
  }
+ .footer {
+    background-color: var(--bg-color);
+ }
  .address-link {
     color: rgba(255, 255, 255, 0.60);
         font-size: 14px;
         font-style: normal;
         /* 171.429% */
         letter-spacing: 0.42px;
-        background-color: #2F303A;
+      
         text-decoration: none;
  }
  .address-link:hover {
@@ -124,3 +127,26 @@
  .logo-footer {
     color: white;
  }
+ .project-button {
+    color: var(--main-color);
+        font-weight: 500;
+        line-height: 26px;
+        /* 162.5% */
+        letter-spacing: 0.48px;
+ }
+ .project-button:hover {
+    color: var(--accent-color);
+ }
+.project-name {
+    color: var(--main-color);
+        font-size: 18px;
+        line-height: 36px;
+        /* 200% */
+        letter-spacing: 1.08px;
+}
+.project-info {
+    color: var(--add-color);
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.48px;
+}
