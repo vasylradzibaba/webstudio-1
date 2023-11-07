@@ -24,7 +24,7 @@
      letter-spacing: 0.28px;
      text-decoration: none;
 }
-.navigation-link:hover {
+.navigation-link:hover,.navigation-link:focus {
     color: var(--accent-color);
 }
  .contakt-link {
@@ -35,7 +35,7 @@
         letter-spacing: 0.28px;
         text-decoration: none;
  }
- .contakt-link:hover {
+ .contakt-link:hover,.contakt-link:focus {
     color: var(--accent-color);
  }
  .biznes-title {
@@ -117,7 +117,7 @@
       
         text-decoration: none;
  }
- .address-link:hover {
+ .address-link:hover, .address-link:focus {
     color: var(--accent-color);
  }
 
@@ -130,7 +130,7 @@
  .project-button {
     color: var(--main-color);
         font-weight: 500;
-        line-height: 26px;
+        line-height: 1.62;
         /* 162.5% */
         letter-spacing: 0.48px;
  }
@@ -140,13 +140,25 @@
 .project-name {
     color: var(--main-color);
         font-size: 18px;
-        line-height: 36px;
+        line-height: 11.1;
         /* 200% */
         letter-spacing: 1.08px;
 }
 .project-info {
     color: var(--add-color);
-        line-height: 30px;
+        line-height: 6.25;
         /* 187.5% */
         letter-spacing: 0.48px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
