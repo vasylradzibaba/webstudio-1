@@ -50,12 +50,13 @@
      overflow: hidden;
  }
  .container {
-     width: 1170px;
+     width: 1200px;
      margin: 0 auto;
     padding: 0 15px;
  }
  .header {
-    padding: 24px 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
  }
  .logo {
      font-family: Raleway;
@@ -89,7 +90,8 @@
     color: var(--accent-color);
  }
  .biznes {
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
  }
  .biznes-title {
     color: #FFF;
@@ -112,7 +114,8 @@
         background-color: var(--accent-color);
  }
  .advantages {
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .advantages-title {
     color: var(--main-color);
@@ -130,7 +133,7 @@
         letter-spacing: 0.42px;
  }
  .work {
-    padding: 94px;
+    padding-bottom: 94px;
  }
  .work-title {
     color: var(--main-color);
@@ -141,7 +144,8 @@
         letter-spacing: 1.08px;
  }
  .workers {
-    padding: 94;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .workers-title {
     color: var(--main-color);
@@ -169,7 +173,8 @@
  }
  .footer {
     background-color: var(--bg-color);
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
  }
  .address-link {
     color: rgba(255, 255, 255, 0.60);
@@ -177,7 +182,6 @@
         font-style: normal;
         /* 171.429% */
         letter-spacing: 0.42px;
-      
         text-decoration: none;
  }
  .address-link:hover, .address-link:focus {
@@ -190,7 +194,8 @@ color: #fff;
     color: white;
  }
  .project {
-    padding: 94px;
+    padding-top: ;
+    padding-bottom: ;
  }
  .project-button {
     color: var(--main-color);
