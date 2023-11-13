@@ -92,6 +92,7 @@
  .biznes {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: var(--bg-color);
  }
  .biznes-title {
     color: #FFF;
@@ -194,8 +195,8 @@ color: #fff;
     color: white;
  }
  .project {
-    padding-top: ;
-    padding-bottom: ;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .project-button {
     color: var(--main-color);
