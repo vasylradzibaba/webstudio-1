@@ -303,7 +303,7 @@ color: #fff;
 .project-item {
    border: 1px  solid #eee;
    width: 370px;
-   margin-left: auto;
+   flex-basis: calc(100% /3 30px);
 }
 .project-img {
    width: 100%;
