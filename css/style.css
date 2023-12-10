@@ -54,6 +54,9 @@
      margin: 0 auto;
     padding: 0 15px;
  }
+.header {
+   display: flex;
+}
  .header-position {
     display: flex;
     align-items: center;
@@ -104,10 +107,17 @@
      justify-content: center;
      align-items: center;
  }
+ .navigation-item + .navigation-item {
+   margin-left: 50px;
+ }
+
  .contakt-list {
     display: flex;
     align-items: center;
     margin-left: auto;
+ }
+ .contakt-item + .contakt-item {
+   margin-left: 50px;
  }
  .biznes {
     padding-top: 200px;
@@ -296,6 +306,9 @@ color: #fff;
 }
 .project-img {
    width: 100%;
+}
+.box {
+   padding: 20px 24px;
 }
 .project-name {
    color: var(--main-color);
