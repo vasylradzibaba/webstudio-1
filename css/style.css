@@ -134,6 +134,7 @@
         /* 136.364% */
         letter-spacing: 2.64px;
         background-color: #2F303A;
+        padding-bottom: 30px;
  }
  .biznes-button {
     color: #FFF;
@@ -150,12 +151,13 @@
     padding-bottom: 94px;
  }
  .advantages-title {
-    color: var(--main-color);
-        line-height: 1.143;
-        font-size: 14px;
-        /* 122.484% */
-        letter-spacing: 0.42px;
-        text-transform: uppercase;
+   color: var(--main-color);
+   line-height: 1.143;
+   font-size: 14px;
+   /* 122.484% */
+   letter-spacing: 0.42px;
+   text-transform: uppercase;
+   padding-bottom: 10px;
  }
  .advantages-list {
     display: flex;
@@ -198,6 +200,9 @@
  .workers-list {
     display: flex;
  }
+ .workers-img {
+   padding-bottom: 30px;
+ }
  .workers-item {
     margin-left: 30px;
  }
@@ -207,6 +212,7 @@
         font-size: 36px;
         /* 333.333% */
         letter-spacing: 1.08px;
+        padding-bottom: 50px;
  }
  .workers-name {
     color: var(--main-color);
@@ -216,6 +222,7 @@
         /* 134.453% */
         font-size: 16px;
         letter-spacing: 0.48px;
+        padding-bottom: 10px;
  }
  .workers-info {
     color: var(--add-color);
@@ -224,6 +231,7 @@
         /* 134.453% */
         font-size: 16px;
         letter-spacing: 0.48px;
+        padding-bottom: 30px;
  }
  .footer {
     background-color: var(--bg-color);
@@ -291,7 +299,7 @@ color: #fff;
         line-height: 4px;
         /* 187.5% */
         letter-spacing: 0.48px;
-        margin: 20px 24px;
+        margin: 4px 24px;
 }
 .project-list {
    display: flex;
@@ -309,7 +317,7 @@ color: #fff;
    width: 100%;
 }
 .box-name {
-   padding: 20px 24px;
+   padding: 20px 20px;
 }
 .project-name {
    color: var(--main-color);
