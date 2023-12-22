@@ -165,6 +165,10 @@
  .advantages-item {
     margin-left: 30px;
  }
+.advantages-title::before {
+   content: " ";
+   background-image: url("../images/advantages_img1.jpg.jpg");
+}
  .advantages-text {
     color: var(--add-color);
         font-size: 14px;
@@ -311,7 +315,7 @@ color: #fff;
 .project-item {
    border: 1px  solid #eee;
    width: 370px;
-   flex-basis: calc(100% /3 30px);
+   flex-basis: calc(100% / 3 - 30px);
 }
 .project-img {
    width: 100%;
@@ -326,7 +330,6 @@ color: #fff;
    letter-spacing: 1.08;
    margin-bottom: 4px;
    margin-left: 24px;
-   margin-top: 20px;
 }
 
 .visually-hidden {
