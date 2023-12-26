@@ -145,7 +145,8 @@
         /* 187.5% */
         letter-spacing: 0.96px;
         background-color: var(--accent-color);
-         }  
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}  
  .advantages {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -161,14 +162,48 @@
  }
  .advantages-list {
     display: flex;
+    
  }
  .advantages-item {
-    margin-left: 30px;
+   margin-left: 30px;
+   padding-bottom: 30px;
  }
-.advantages-title::before {
+ .antena::before{
    content: " ";
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-position: center;
    background-image: url("../images/advantages_img1.jpg.jpg");
-}
+   padding-bottom: 30px;
+ }
+ .clock::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url("../images/advantages_img2.jpg.jpg");
+   padding-bottom: 30px;
+ }
+ .grafik::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url("../images/advantages_img3.jpg.jpg");
+   padding-bottom: 30px;
+ }
+ .cosmonavt::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url("../images/advantages_img4.jpg.jpg");
+    padding-bottom: 30px;
+ }
  .advantages-text {
     color: var(--add-color);
         font-size: 14px;
