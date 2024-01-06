@@ -130,22 +130,23 @@
         text-align: center;
         font-size: 44px;
         font-weight: 900;
-        line-height: 60px;
-        /* 136.364% */
-        letter-spacing: 2.64px;
-        background-color: #2F303A;
-        padding-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;        
+        width: 696px;
  }
  .biznes-button {
     color: #FFF;
         font-family: inherit;
         font-size: 16px;
         font-weight: 700;
-        line-height: 30px;
-        /* 187.5% */
+        line-height: 1.87;
         letter-spacing: 0.96px;
+        padding: 10px 32px;
         background-color: var(--accent-color);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border: 0;
+        border-radius: 4px;
 }  
  .advantages {
     padding-top: 94px;
@@ -155,18 +156,13 @@
    color: var(--main-color);
    line-height: 1.143;
    font-size: 14px;
-   /* 122.484% */
    letter-spacing: 0.42px;
    text-transform: uppercase;
    padding-bottom: 10px;
  }
  .advantages-list {
     display: flex;
-    
- }
- .advantages-item {
-   margin-left: 30px;
-   padding-bottom: 30px;
+    column-gap: 30px;
  }
  .antena::before{
    content: " ";
@@ -175,7 +171,7 @@
    height: 100%;
    background-position: center;
    background-image: url("../images/advantages_img1.jpg.jpg");
-   padding-bottom: 30px;
+   margin-bottom: 30px;
  }
  .clock::before {
     content: " ";
@@ -184,7 +180,7 @@
     height: 100%;
     background-position: center;
     background-image: url("../images/advantages_img2.jpg.jpg");
-   padding-bottom: 30px;
+    margin-bottom: 30px;
  }
  .grafik::before {
     content: " ";
@@ -193,7 +189,7 @@
     height: 100%;
     background-position: center;
     background-image: url("../images/advantages_img3.jpg.jpg");
-   padding-bottom: 30px;
+    margin-bottom: 30px;
  }
  .cosmonavt::before{
     content: " ";
@@ -202,7 +198,7 @@
     height: 100%;
     background-position: center;
     background-image: url("../images/advantages_img4.jpg.jpg");
-    padding-bottom: 30px;
+    margin-bottom: 30px;
  }
  .advantages-text {
     color: var(--add-color);
@@ -213,14 +209,15 @@
  }
  .work {
     padding-bottom: 94px;
+    padding-top: 94px;
  }
  .work-list {
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    column-gap: 20px;
  }
  .work-item {
-    margin-left: 20px;
+    flex-basis: calc((100% - 40px) / 3);
  }
  .work-title {
     color: var(--main-color);
@@ -238,12 +235,13 @@
  }
  .workers-list {
     display: flex;
+    column-gap: 30px;
  }
  .workers-img {
    padding-bottom: 30px;
  }
  .workers-item {
-    margin-left: 30px;
+    background-color: #FFF;
  }
  .workers-title {
     color: var(--main-color);
@@ -321,24 +319,20 @@ color: #fff;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   margin-bottom: 50px;
+   column-gap: 8px;
  }
- .project-item-button {
-   margin-left: 8px;
-   margin-bottom: 35px;
- }
-.project-name {
-    color: var(--main-color);
-        font-size: 18px;
-        line-height: 11.1;
-        /* 200% */
-        letter-spacing: 1.08px;
+ .project-name {
+   color: var(--main-color);
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 1.08px;
 }
 .project-info {
-    color: var(--add-color);
-        line-height: 4px;
-        /* 187.5% */
-        letter-spacing: 0.48px;
-        margin: 4px 24px;
+   color: var(--add-color);
+   line-height: 1.87;
+   letter-spacing: 0.48px;
+   padding: 4px 24px;
 }
 .project-list {
    display: flex;
@@ -348,9 +342,9 @@ color: #fff;
    row-gap: 30px;
 }
 .project-item {
-   border: 1px  solid #eee;
+   outline: 1px  solid #eee;
    width: 370px;
-   flex-basis: calc(100% / 3 - 30px);
+   flex-basis: calc((100% - 60px) / 3);;
 }
 .project-img {
    width: 100%;
