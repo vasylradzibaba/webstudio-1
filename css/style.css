@@ -242,6 +242,7 @@
  }
  .workers-item {
     background-color: #FFF;
+    flex-basis: calc((100% - 90px) / 4);
  }
  .workers-title {
     color: var(--main-color);
@@ -343,7 +344,6 @@ color: #fff;
 }
 .project-item {
    outline: 1px  solid #eee;
-   width: 370px;
    flex-basis: calc((100% - 60px) / 3);;
 }
 .project-img {
