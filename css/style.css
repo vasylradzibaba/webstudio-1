@@ -110,7 +110,12 @@
  .navigation-item + .navigation-item {
    margin-left: 50px;
  }
-
+.email:hover {
+   Fill: #2196F3;
+}
+.phone:hover {
+   Fill: #2196F3;
+}
  .contakt-list {
     display: flex;
     align-items: center;
@@ -272,6 +277,25 @@
         letter-spacing: 0.48px;
         padding-bottom: 30px;
  }
+ .clients {
+   padding-top: 90px;
+   padding-bottom: 95px;
+ }
+ .clients-title {
+   font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 36px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      margin-bottom: 55px;
+      color: #212121;
+ }
+ .clients-icon {
+   fill: grey;
+ }
+ .clients-icon:hover {
+    fill: var(--accent-color);
+ }
  .footer {
     background-color: var(--bg-color);
     padding-top: 60px;
@@ -379,4 +403,12 @@ color: #fff;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.footer-masenger-title {
+   font-family: var(--font-family);
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #fff;
 }
