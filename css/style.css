@@ -253,9 +253,9 @@
       text-transform: uppercase;
       text-align: center;
       color: #fff;
-      padding: 27px 94px;
+      padding: 27px 0px;
       margin: 0;
-      width: 212px;
+      width: 100%;
       
  }
  .workers {
