@@ -402,8 +402,9 @@
 color: #fff;
 }
  .logo-footer {
+   display: block;
     color: white;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
  }
  .project {
     padding-top: 94px;
@@ -500,6 +501,7 @@ color: #fff;
    display: flex;
 }
 .join-footer {
+   margin-top: 12px;
    margin-left: 60px;
 }
 .join-list-footer {
@@ -522,20 +524,21 @@ color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-subscrite {
-   margin-left: 50px;
+   margin-top: 12px;
+   margin-left: 93px;
 }
 .modal-input-footer {
    width: 358px;
       height: 50px;
       border: 1px solid grey;
       padding-left: 10px;
-      border-radius: 3px;
-      color: #212121;
+      border-radius: 4px;
+      background-color: transparent;
       padding-left: 12px;
 }
 .footer-subscrite-button {
    color: #FFF;
-      display: block;
+      display: inline-block;
       width: 200px;
       height: 50px;
       font-family: inherit;
@@ -543,12 +546,15 @@ color: #fff;
       font-weight: 700;
       line-height: 1.87;
       letter-spacing: 0.96px;
-      padding: 10px 52px;
+      padding: 10px 29px;
       background-color: var(--accent-color);
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
       border: none;
       border-radius: 4px;
       margin-left: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 }
 .footer-subscrite-item {
    display: flex;
@@ -574,7 +580,12 @@ color: #fff;
   right: 0;
   bottom: 0;
   z-index: 1;
+  opacity: 1;
   /* background-color: ; */
+}
+.backdrop.is-hidden {
+opacity: 0;
+pointer-events: none;
 }
 .modal {
     position: absolute;
