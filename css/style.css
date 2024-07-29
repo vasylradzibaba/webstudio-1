@@ -85,6 +85,7 @@
      text-decoration: none;
      align-items: center;
      position: relative;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -142,6 +143,7 @@
  } */
  .contakt-link {
    margin-left: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .biznes {
     padding-top: 200px;
@@ -171,6 +173,7 @@
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         border: 0;
         border-radius: 4px;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }  
  .advantages {
     padding-top: 94px;
@@ -342,6 +345,7 @@
     width: 44px;
     height: 44px;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .clients {
    padding-top: 90px;
@@ -391,7 +395,7 @@
  .messenger-icon {
    width: 106px;
    height: 60px;
-   
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
  .footer {
     background-color: var(--bg-color);
@@ -713,9 +717,20 @@ flex-direction: column;
 .modal-input {
    /* width: 480px; */
       height: 40px;
-      border: 1px solid grey;
+      border: 1px solid var(--accent-color);
       border-radius: 5px;
       padding-left: 40px;
+}
+.modal-input:focus {
+   border: 1px solid var(--accent-color);
+}
+.modal-input-icon {
+   position: absolute;
+      top: 30px;
+      left: 12px;
+}
+.modal-input:focus ~ .modal-input-icon {
+   fill: var(--accent-color);
 }
 /* .modal-input:hover {
    color: var(--accent-color);
@@ -727,7 +742,7 @@ flex-direction: column;
     border-radius: 5px;
     padding-left: 10px;
 } */
-.modal-input::placeholder {
+.modal-coment::placeholder {
    color: #757575;
 }
 /* .modal-form-field-input::placeholder {
@@ -766,11 +781,4 @@ flex-direction: column;
 .modal-item:nth-child(3) {
    position: relative;
 }
-.modal-input-icon {
-   position: absolute;
-      top: 30px;
-      left: 12px;
-}
-.modal-input-icon:hover {
-   fill: var(--accent-color);
-}
+
